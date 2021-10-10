@@ -1,0 +1,9 @@
+import math
+print("Bir doğruyla bir nokta arasındaki uzaklığı hesaplayınız")
+x1=float(input("Noktanın Apsisini Giriniz:"))
+y1=float(input("Noktanın Ordinatını Giriniz:"))
+a=float(input("Doğrunun Birnci Katsayısını Giriniz:"))
+b=float(input("Doğrunun İkinci Katsayısını Giriniz:"))
+c=float(input("Sabit terimi giriniz:")) 
+x=math.sqrt(x1**2 + y1**2)
+print("Noktanın Doğruya Uzaklığı:" , abs(a*x1+b*y1+c)/x)
